@@ -14,6 +14,11 @@ import java.util.stream.Stream;
 
 public class Lines {
 	
+	public Lines(ArrayList<Line> lines) {
+		super();
+		this.lines = lines;
+	}
+
 	private ArrayList<Line> lines;
 
 	public ArrayList<Line> getLines() {

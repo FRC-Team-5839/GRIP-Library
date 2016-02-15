@@ -159,6 +159,11 @@ public class Countours {
 	public void sort(Comparator<? super Countour> c) {
 		countours.sort(c);
 	}
+
+	public Countours(ArrayList<Countour> countours) {
+		super();
+		this.countours = countours;
+	}
 	
 
 }
